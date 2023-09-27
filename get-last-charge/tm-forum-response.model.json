@@ -1,0 +1,49 @@
+{
+  "id": "20230425004200",
+  "reTransmit": "0",
+  "sourceSystem": "BSS",
+  "userSys": "HRZ",
+  "paymentItem": [
+    {
+      "id": "20230425004200-01",
+      "href": "",
+      "name": "rbmGetLastCharge",
+      "status": "Success",
+      "paymentDate": "20230921",
+      "action": "READ",
+      "errorFlag": "Y",
+      "errorMessage": "",
+      "errors": {
+        "code": [""],
+        "condition": [""],
+        "developerMessage": [""]
+      },
+      "account": {
+        "id": "32300050424311",
+        "href": "",
+        "lastBilledDate": "20230228",
+        "@referredType": "billing account",
+        "@type": "accountRef"
+      },
+      "product": {
+        "productCharacteristic": {
+          "name": "mobileNo",
+          "value": "0999787971",
+          "maxBilledDate": "20230314"
+        },
+        "parentProductSeq": "1",
+        "productSeq": "1",
+        "productMaxBilledDate": "20230314",
+        "@type": "productRef"
+      },
+      "lastBilledDate": "20230314"
+    }
+  ],
+  "relatedParty": {
+    "id": "GetLastCharge20230425004200",
+    "href": "",
+    "orderType": "rbmGetLastCharge",
+    "@referredType": "customer",
+    "@type": "relatedPartyRef"
+  }
+}

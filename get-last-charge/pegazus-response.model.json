@@ -1,0 +1,33 @@
+{
+  "responseHeader": {
+    "customerOrderType": "rbmGetLastCharge",
+    "reTransmit": "0",
+    "publicIdType": "accountNo",
+    "userSys": "PGZ",
+    "resourceGroupId": "GetLastCharge20230425004200",
+    "publicIdValue": "32300050424311",
+    "resourceOrderId": "DBSSSQAA001G-PGZ_POC-2023032125360017",
+    "resultCode": "20000",
+    "resultDesc": "Success",
+    "developerMessage": ""
+  },
+  "resourceItemList": [
+    {
+      "resourceItemId": "20230425004200-01",
+      "resourceName": "rbmGetLastCharge",
+      "resourceItemStatus": "Success",
+      "resourceItemErrMessage": "Success",
+      "errorFlag": "1",
+      "resourceActivatedDate": "20230425004200+0700",
+      "lastBillOfAccount": "20230228",
+      "maxBilledDate": "20230314",
+      "productMaxBilledDate": "20230314",
+      "lastBillDate": "20230314",
+      "specialErrHandling": {
+        "suppCode": [],
+        "taskKeyCondition": [],
+        "taskDeveloperMessage": []
+      }
+    }
+  ]
+}

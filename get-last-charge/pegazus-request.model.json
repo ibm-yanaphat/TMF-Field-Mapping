@@ -1,0 +1,31 @@
+{
+  "requestHeader": {
+    "resourceGroupId": "20230425004200",
+    "reTransmit": "0",
+    "sourceSystem": "BSS",
+    "userSys": "HRZ",
+    "customerOrderId": "GetLastCharge20230425004200",
+    "publicIdValue": "32300050424311",
+    "customerOrderType": "rbmGetLastCharge"
+  },
+  "resourceItemList": [
+    {
+      "resourceItemId": "20230425004200-01",
+      "resourceName": "rbmGetLastCharge",
+      "resourceItemStatus": "Success",
+      "resourceActivatedDate": "20230921",
+      "requestType": "READ",
+      "errorFlag": "Y",
+      "specialErrHandling": {
+        "suppCode": ["B002"],
+        "taskKeyCondition": ["test"],
+        "taskDeveloperMessage": ["test message"]
+      },
+      "accountNo": "32300050424311",
+      "mobileNo": "0999787971",
+      "nonMobileNo": "9008007771",
+      "parentProductSeq": "1",
+      "productSeq": "1"
+    }
+  ]
+}
